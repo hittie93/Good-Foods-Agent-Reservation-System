@@ -9,7 +9,7 @@ This project is built as part of the Sarvam AI LLM challenge. It focuses on:
   - Streamlit frontend
   - Llama model via Groq
   - Tool-calling agent
-  - Static restaurant dataset (60 outlets)
+  - Static restaurant dataset (~60 outlets)
   - SQLite-backed reservation storage
 
 ---
@@ -168,8 +168,8 @@ Key strategies used:
 
 - **Single authoritative system prompt** (`SYSTEM_PROMPT`) describing:
   - Brand constraints (GoodFoods only, no external restaurants).
-  - Domain flow (clarify intent → recommend → book → manage).
-  - Data requirements before booking (must have restaurant, date, time, party size, name, phone).
+  - Domain behavior for recommendations, booking, and cancellation.
+  - Style guidelines (concise, friendly, minimal clarifications).
 - **Tool-calling protocol** baked into the prompt so the model knows how to:
   - Decide whether a tool is needed.
   - Construct `tool_call` objects with appropriate arguments.
@@ -253,5 +253,3 @@ Before submitting, remember to:
 - Add the **demo video link**.
 - Share the private GitHub repo with the required reviewers.
 - Verify that `.env` is not committed.
-#   G o o d - F o o d s - A g e n t - R e s e r v a t i o n - S y s t e m  
- 
