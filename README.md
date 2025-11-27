@@ -16,9 +16,7 @@ This project is built as part of the Sarvam AI LLM challenge. It focuses on:
 
 ## 1. Demo Video (Required)
 
-> **Placeholder**: Add your Loom / YouTube link here before submission.
->
-> Example: `https://www.loom.com/share/your-demo-link`
+https://drive.google.com/file/d/16q6Yijcq6wRbSE8XrpVjYS-mSjc9J4BE/view?usp=sharing
 
 In the demo, show at least:
 
